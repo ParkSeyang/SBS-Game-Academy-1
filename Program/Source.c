@@ -60,6 +60,8 @@ void main()
 	// int result3 <- 심볼릭 상수 * 리터럴 상수
 	// int result4 <- 리터럴 상수 / 리터럴 상수
 	// int result5 <- 심볼릭 상수 % 심볼릭 상수
+
+	int x1 = 15;
 #pragma endregion
 
 #pragma region 부호 없는 자료형
