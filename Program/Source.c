@@ -108,19 +108,19 @@ void main()
 	// 실행되는 명령문입니다.
 
 
-	char tier = 'C';
+	int tier = 3;
 
-	    if (tier == 'B')
+	    if (tier == '1')
 	   {
-		printf("당신의 tier는 %c입니다.\n",tier);
+		printf("당신의 tier는 'A'입니다.\n");
 	   }
-	   else if (tier == 'A')
+	   else if (tier == '2')
 	   {
-		   printf("당신의 tier는 %c입니다.\n",tier);
+		   printf("당신의 tier는 'B'입니다.\n");
 	   }
 	   else
 	   {
-			printf("당신의 tier는 %c 도 아니고 %c 도 아닙니다.\n",tier, tier);
+			printf("유효하지 않은 티어입니다.\n");
 	   }
 
 	// if문에 연결된 모든 조건문의 조건이 맞을 때
