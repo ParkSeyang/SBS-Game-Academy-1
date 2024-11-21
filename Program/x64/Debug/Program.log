@@ -1,2 +1,6 @@
 ﻿  Source.c
-  Program.vcxproj -> C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\x64\Debug\Program.exe
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\Source.c(40,40): error C2059: 구문 오류: ')'
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\Source.c(43,8): error C2143: 구문 오류: ';'이(가) ')' 앞에 없습니다.
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\Source.c(45,4): error C2198: 'printf': 호출에 인수가 너무 적습니다.
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\Source.c(46,3): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\Source.c(55,1): error C2059: 구문 오류: '}'
