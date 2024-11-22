@@ -35,18 +35,18 @@ void main()
 	// 버퍼 안의 내용을 프로그램에 전송합니다.
 #pragma endregion
 
-#pragma region Star
-
-		int i = 0, j = 0;
-
-		for (i = 0; i < 5; i++)
-		{
-			for (j = 0; j <= i; j++)
-			{
-			printf("*");
-		    }
-			printf("\n");
-		}
+#pragma region (2)중 for문을 이용한 별찍기
+	// 내가한 예제 1,2
+	//	int i = 0, j = 0;
+	//
+	//	for (i = 0; i < 5; i++)
+	//	{
+	//		for (j = 0; j <= i; j++)
+	//		{
+	//		printf("*");
+	//	    }
+	//		printf("\n");
+	//	}
 	 
 	// for(int i = 0; i < 5; i++ )
 	// {
@@ -56,9 +56,99 @@ void main()
 	// }
 	// printf("\n");
 	// }
+	
+	//  강사님의 예제
+
+	// int input = 0;
+	// 
+	// scanf_s("%d", &input);
+	// 
+	// for (int i = 0; i < input; i++)
+	// {
+	// 	for (int j = 0; j <= i; j++)
+	// 	{
+	// 		printf("★");
+	// 	}
+	// 	printf("\n");
+	// }
+
 
 #pragma endregion
 
+#pragma region 포인터
+	// 메모리의 주소 값을 저장할 수 있는 변수입니다.
+	
+	// int x = 10; // 변수의 주소값
+	// 
+	// int * pointer = &x; // 포인터 변수 선언, x의
+	// 
+	// *pointer = 99; // 역참조
+	// 
+	// 
+	// 
+	// printf("x의 변수의 값 : %d\n", x);
+	// printf("x의 주소 값 : %p\n", &x);
+	// printf("pointer 변수의 값 : %p\n", pointer);
+	// printf("pointer 고유 주소의 값 : %p\n", &pointer);
+	// 
+	// 
+	//  포인터 변수도 자신의 메모리 공간을 가지고 있으며,
+	//  포인터 변수에 변수의 주소를 저장하게 되면 해당
+	//  변수의 시작 주소를 가리키게 됩니다.
+	// 
+	// float health = 100.0f;
+	// 
+	// pointer = &health;
+	// 
+	// *pointer = 15.5f;
+	// 
+	// printf("health 변수의 값 : %f\n", health);
+	// 
+	//  포인터 변수를 저장하기 위해 주소 값을 저장할 변수의
+	//  자료형과 포인터 변수의 자료형이 일치해야 합니다.
+	// 
+	// printf("포인터 변수의 크기 : %d\n", sizeof(pointer));
+	// 
+	// 포인터 변수의 크기는 중앙 처리 장치가 한 번에 처리할 수
+	//  있는 크기로 정해지며, 한 번에 처리할 수 있는 크기는
+	//  운영 체제에 따라 크기가 결정됩니다.
+
+#pragma endregion
+
+#pragma region 범용 포인터
+	// 자료형이 정해지지 않은 상태로 모든 자료형을
+	// 저장할 수 있는 포인터입니다.
+
+	// 범용 포인터는 메모리 주소에 접근해서 값을
+	// 변경할 수 없습니다.
+	
+	void* p = NULL;
+		
+	char character = 'B';
+	int integer = 15;
+	float decimal = 3.25f;
+
+
+	p = &character;
+
+	(char*)p = 'B';
+	
+	printf("범용 포인트 1 : %p\n", character);
+	
+	p = &integer;
+
+	(int*)p = &integer;
+	
+	printf("범용 포인트 2 : %p\n", integer);
+
+	p = decimal;
+
+	(float*)p = &decimal;
+	
+	printf("범용 포인트 3 : %p\n", decimal);
+
+
+#pragma endregion
 
 
 }   
