@@ -37,17 +37,25 @@ void main()
 
 #pragma region Star
 
+		int i = 0, j = 0;
 
-	for ( int x =0; x<= 5; x++)
-	{
-		printf("별의 개수 :  %d\n", );
-		for (int  = '*')
+		for (i = 0; i < 5; i++)
 		{
-			printf("별의갯수)
+			for (j = 0; j <= i; j++)
+			{
+			printf("*");
+		    }
+			printf("\n");
 		}
-
-	}
-
+	 
+	// for(int i = 0; i < 5; i++ )
+	// {
+	// for(int j = 0; j <= i; j++ )
+	// {
+	// 	 printf("*");
+	// }
+	// printf("\n");
+	// }
 
 #pragma endregion
 
