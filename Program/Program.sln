@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class 7th (Iteration Statem
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class 8th (Pointer)", "..\Class 8th (Pointer)\Class 8th (Pointer).vcxproj", "{26E2402E-F865-433B-98BE-E9C04319E834}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "코딩 연습장", "..\코딩 연습장\코딩 연습장.vcxproj", "{C5F8AB7A-A467-4868-9C8C-287FE5FB0956}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{26E2402E-F865-433B-98BE-E9C04319E834}.Release|x64.Build.0 = Release|x64
 		{26E2402E-F865-433B-98BE-E9C04319E834}.Release|x86.ActiveCfg = Release|Win32
 		{26E2402E-F865-433B-98BE-E9C04319E834}.Release|x86.Build.0 = Release|Win32
+		{C5F8AB7A-A467-4868-9C8C-287FE5FB0956}.Debug|x64.ActiveCfg = Debug|x64
+		{C5F8AB7A-A467-4868-9C8C-287FE5FB0956}.Debug|x64.Build.0 = Debug|x64
+		{C5F8AB7A-A467-4868-9C8C-287FE5FB0956}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F8AB7A-A467-4868-9C8C-287FE5FB0956}.Debug|x86.Build.0 = Debug|Win32
+		{C5F8AB7A-A467-4868-9C8C-287FE5FB0956}.Release|x64.ActiveCfg = Release|x64
+		{C5F8AB7A-A467-4868-9C8C-287FE5FB0956}.Release|x64.Build.0 = Release|x64
+		{C5F8AB7A-A467-4868-9C8C-287FE5FB0956}.Release|x86.ActiveCfg = Release|Win32
+		{C5F8AB7A-A467-4868-9C8C-287FE5FB0956}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
