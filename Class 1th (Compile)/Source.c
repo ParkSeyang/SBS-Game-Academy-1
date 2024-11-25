@@ -6,5 +6,5 @@
 void main()
 {
 	// ; : 한 문장의 끝을 알려주는 특수한 기호입니다.
-	printf("Hello");
+	printf("Hello World");
 }

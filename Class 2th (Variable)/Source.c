@@ -52,13 +52,14 @@ void main()
 	// 5. 변수의 이름으로 특수 기호는 _와 $만 허용됩니다.
 	// ex) int game_Academy;
 	// ex) int jump$up;
+	// 
+    // 변수는 프로그램이 실행되는 동안 값을 바꿀 수 있으며,
+	// 원래 저장되어 있는 값은 새로 저장되는 값에 의해 지워집니다.
 
 #pragma endregion
 
 
 
-	// 변수는 프로그램이 실행되는 동안 값을 바꿀 수 있으며,
-	// 원래 저장되어 있는 값은 새로 저장되는 값에 의해 지워집니다.
 #pragma endregion
 
 #pragma region 상수
