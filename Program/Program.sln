@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class 8th (Pointer)", "..\C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "코딩 연습장", "..\코딩 연습장\코딩 연습장.vcxproj", "{C5F8AB7A-A467-4868-9C8C-287FE5FB0956}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class 9th (Arrangement)", "..\Class 9th (Arrangement)\Class 9th (Arrangement).vcxproj", "{F0245610-C7F4-409C-AA07-642D54235E0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{C5F8AB7A-A467-4868-9C8C-287FE5FB0956}.Release|x64.Build.0 = Release|x64
 		{C5F8AB7A-A467-4868-9C8C-287FE5FB0956}.Release|x86.ActiveCfg = Release|Win32
 		{C5F8AB7A-A467-4868-9C8C-287FE5FB0956}.Release|x86.Build.0 = Release|Win32
+		{F0245610-C7F4-409C-AA07-642D54235E0E}.Debug|x64.ActiveCfg = Debug|x64
+		{F0245610-C7F4-409C-AA07-642D54235E0E}.Debug|x64.Build.0 = Debug|x64
+		{F0245610-C7F4-409C-AA07-642D54235E0E}.Debug|x86.ActiveCfg = Debug|Win32
+		{F0245610-C7F4-409C-AA07-642D54235E0E}.Debug|x86.Build.0 = Debug|Win32
+		{F0245610-C7F4-409C-AA07-642D54235E0E}.Release|x64.ActiveCfg = Release|x64
+		{F0245610-C7F4-409C-AA07-642D54235E0E}.Release|x64.Build.0 = Release|x64
+		{F0245610-C7F4-409C-AA07-642D54235E0E}.Release|x86.ActiveCfg = Release|Win32
+		{F0245610-C7F4-409C-AA07-642D54235E0E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
