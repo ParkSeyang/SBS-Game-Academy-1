@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "기타 파일",
+      "ColorIndex": -1
+    },
+    "f0245610-c7f4-409c-aa07-642d54235e0e": {
+      "ProjectGuid": "f0245610-c7f4-409c-aa07-642d54235e0e",
+      "DisplayName": "Class 9th (Arrangement)",
+      "ColorIndex": 0
+    },
+    "26e2402e-f865-433b-98be-e9c04319e834": {
+      "ProjectGuid": "26e2402e-f865-433b-98be-e9c04319e834",
+      "DisplayName": "Class 8th (Pointer)",
+      "ColorIndex": 1
+    },
+    "c5f8ab7a-a467-4868-9c8c-287fe5fb0956": {
+      "ProjectGuid": "c5f8ab7a-a467-4868-9c8c-287fe5fb0956",
+      "DisplayName": "코딩 연습장",
+      "ColorIndex": 2
+    },
+    "badf5bb6-a1fa-4325-a508-a6d14cc7b9bc": {
+      "ProjectGuid": "badf5bb6-a1fa-4325-a508-a6d14cc7b9bc",
+      "DisplayName": "Class 7th (Iteration Statement)",
+      "ColorIndex": 3
+    },
+    "a5b9ebfe-2956-4d50-b509-c1a6832e7e86": {
+      "ProjectGuid": "a5b9ebfe-2956-4d50-b509-c1a6832e7e86",
+      "DisplayName": "Class 6th (Type Conversion)",
+      "ColorIndex": 4
+    },
+    "4fc6bb2e-227c-4b8d-8faf-16e48cc00d8a": {
+      "ProjectGuid": "4fc6bb2e-227c-4b8d-8faf-16e48cc00d8a",
+      "DisplayName": "Program",
+      "ColorIndex": 5
+    },
+    "cc17692c-e7ab-4394-b904-d183f6f63e26": {
+      "ProjectGuid": "cc17692c-e7ab-4394-b904-d183f6f63e26",
+      "DisplayName": "Class 4th (Overflow & Underflow)",
+      "ColorIndex": 6
+    },
+    "22d60b8f-ec92-49e8-9321-60aecf68bdf1": {
+      "ProjectGuid": "22d60b8f-ec92-49e8-9321-60aecf68bdf1",
+      "DisplayName": "Class 3th (Bit)",
+      "ColorIndex": 7
+    },
+    "a02a266f-12af-4553-aecf-639bd4ff72ed": {
+      "ProjectGuid": "a02a266f-12af-4553-aecf-639bd4ff72ed",
+      "DisplayName": "Class 2th (Variable)",
+      "ColorIndex": 8
+    },
+    "29ab7d1c-32c5-4e52-a15c-d19827d48d50": {
+      "ProjectGuid": "29ab7d1c-32c5-4e52-a15c-d19827d48d50",
+      "DisplayName": "Class 1th (Compile)",
+      "ColorIndex": 9
+    }
+  },
+  "NextColorIndex": 10
+}

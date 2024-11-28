@@ -24,6 +24,7 @@
     <ProjectGuid>{c5f8ab7a-a467-4868-9c8c-287fe5fb0956}</ProjectGuid>
     <RootNamespace>코딩연습장</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>코딩 연습장</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
