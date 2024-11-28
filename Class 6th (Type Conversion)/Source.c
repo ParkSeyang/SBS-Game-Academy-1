@@ -61,10 +61,14 @@ void main()
 	int x = 5;
 	int y = 0;
 
+
+
+
+
 	if (x > 0 && y > 0)
 	{
 		printf("제 1 사분면 입니다.\n");
-
+	
 	else if (x < 0 && y > 0)
 
 		printf("제 2 사분면 입니다.\n");

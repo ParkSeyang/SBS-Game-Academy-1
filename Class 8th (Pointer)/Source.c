@@ -37,16 +37,22 @@ void main()
 
 #pragma region (2)중 for문을 이용한 별찍기
 	// 내가한 예제 1,2
-	//	int i = 0, j = 0;
-	//
-	//	for (i = 0; i < 5; i++)
-	//	{
-	//		for (j = 0; j <= i; j++)
-	//		{
-	//		printf("*");
-	//	    }
-	//		printf("\n");
-	//	}
+		int i = 0, j = 0;
+	
+		for (i = 0; i < 5; i++)
+		{
+			for (j = 0; j <= i; j++)
+			{
+			printf("*");
+		    }
+			printf("\n");
+		}
+
+		/**
+		**
+		***
+		****
+		******/
 
 	// for(int i = 0; i < 5; i++ )
 	// {

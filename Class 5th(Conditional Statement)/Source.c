@@ -89,12 +89,12 @@ void main()
 	// 맞다면 실행되는 명령문입니다.
 
 	// char grade = 'A';
-
 	// if (grade == 'A')
 	// { 
 	// 	printf("100점 ~ 91점입니다.\n");
 	// }
 	// else if(grade == 'B')
+
 	// { 
 	// 	printf("90점 ~ 81점입니다.\n");
 	// }
