@@ -61,38 +61,33 @@ void main()
 	int x = 5;
 	int y = 0;
 
-
-
-
-
 	if (x > 0 && y > 0)
 	{
 		printf("제 1 사분면 입니다.\n");
-	
+	}
 	else if (x < 0 && y > 0)
-
+	{
 		printf("제 2 사분면 입니다.\n");
-
+	}
 	else if (x < 0 && y < 0)
-
+	{
 		printf("제 3 사분면 입니다.\n");
-
+	}
 	else if (x > 0 && y < 0)
-
+	{
 		printf("제 4 사분면 입니다.\n");
-
+	}
 	else if (x != 0 && y == 0)
-
+	{ 
 		printf(" x 절편입니다.\n");
-
+	}
 	else if (x == 0 && y != 0)
-
+	{
 		printf("y 절편입니다.\n");
-
+	}
 	else
-
+	{ 
 		printf("원점입니다. \n");
-
 	}
 
 
