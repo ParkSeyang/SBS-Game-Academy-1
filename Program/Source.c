@@ -27,6 +27,15 @@ int Compare(float x, float y)
 	}
 }
 
+// void time(int left, int right)
+// {
+// 	int temporary = left;
+// 
+// 	left = right;
+// 
+// 	right = temporary;
+// 잘못된 예시
+
 void swap(int * left, int * right)
 {
 	int temporary = *left;
@@ -100,10 +109,38 @@ void main()
 	// 함수가 호출될 때 매개 변수에 실제로 전달되는
 	// 값입니다.
 
-	// 과제 a에는 20의 값을 넣고 b에는 10의 값을 넣는 함수를만들어보세요
-	// swap 함수를 이용해야합니다. 힌트: 임시변수를 만들어서 해보세요(temporary)
-
-		// int a = 10; //역참조를 통해서 값을 바꾸는방법
+	// 과제 a와 b의 값을 교차하시오. 힌트: 임시변수를 만들어서 하세요
+		
+	// int a = 20;
+	// int b = 40;
+	// 
+	// int rocker = a;
+	// 
+	// a = b;
+	// 
+	// b = rocker;
+	// 
+	// printf("뒤바뀐 a 값 : %d\n", a);
+	// printf("뒤바뀐 b 값 : %d\n", b);
+		
+	// 
+	// 잘못된예시 
+	// 이유는 위쪽 함수에서는 교차된값으로 나오게 되지만 밑으로 값을 다시전달하면서 int a,b에는 
+	// 교차전의 값이 그대로 있기때문에 출력결과 값이 
+	// 교차되지 않은 값으로 나오게 되는것을 볼수있습니다. 
+	 
+		// int a = 10; 
+		// int b = 20;
+		// 
+		// time(a, b);
+		// 
+		// printf("a의 값 : % d\n", a);
+		// printf("b의 값 : % d\n", b);
+	 
+	// 과제 함수를 활용해서 a와 b의 값을 교차해보시오.
+	// 방법:역참조를 통해서 값을 바꾸면 됩니다.( &(래퍼런스) 와 *(포인터) 를 사용)
+		
+	// int a = 10; 
 		// int b = 20;
 		//
 		// swap(&a, &b);
