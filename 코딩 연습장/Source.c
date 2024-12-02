@@ -438,7 +438,7 @@
 
 #pragma region (3)가지 진법의 정수와 상수
 	// include <stdio.h>
-
+	 
 // int main(void)
 // {
 // 	printf("%d\n", 12); // 10진수 정수 상수 출력
@@ -455,7 +455,43 @@
 //	printf("%X\n", 12);
 // 
 // }
+
+#pragma region 지수 형태의 실수 상수
+	//#include <stdio.h>
+
+// int main(void)
+// {
+// 	printf("%.1lf\n", 1e6);         // 지수 형태의 실수를 소수점 형태로 출력
+// 	printf("%.7lf\n", 3.14e-5);	    // 소수점 이하 일곱째 자리까지 출력
+// 	printf("%le\n", 0.0000314);		// 소수점 형태의 실수를 지수 형태로 출력
+// 	printf("%.2le\n", 0.0000314);	// 지수 형태로 소수점이하 둘째 자리까지 출력
+// 
+// 	return 0;
+// }
+
 #pragma endregion
 
+#pragma region 문자와 문자열 데이터의 출력
+	// #include <stdio.h>
+
+// int main(void)
+// {
+// 	printf("%c\n", 'A');	 // 문자 상수 출력
+// 	printf("%s\n", "A");	 // 문자열 상수 출력
+// 	printf("%c은 %s 입니다.\n", '1', "first");	// 문자(%c) 와 문자열(%s)을 함께 출력
+// 
+// 	return 0;
+// }
+
+
+#pragma endregion
+
+
+#pragma endregion
+
+
+#pragma endregion
+
+#pragma region MyRegion
 
 #pragma endregion

@@ -55,7 +55,22 @@
       "ProjectGuid": "29ab7d1c-32c5-4e52-a15c-d19827d48d50",
       "DisplayName": "Class 1th (Compile)",
       "ColorIndex": 9
+    },
+    "d696e8fd-55ba-4c5d-a45f-941c4dfab544": {
+      "ProjectGuid": "d696e8fd-55ba-4c5d-a45f-941c4dfab544",
+      "DisplayName": "Class 11th (Dynamic Allocation)",
+      "ColorIndex": 10
+    },
+    "076e6fa5-be2d-438f-abd7-11d35f69006a": {
+      "ProjectGuid": "076e6fa5-be2d-438f-abd7-11d35f69006a",
+      "DisplayName": "Class 10th (Function)",
+      "ColorIndex": 11
+    },
+    "a0832431-6512-4f9b-a028-5158d0c32721": {
+      "ProjectGuid": "a0832431-6512-4f9b-a028-5158d0c32721",
+      "DisplayName": "Class 5th(Conditional Statement)",
+      "ColorIndex": 12
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 13
 }
