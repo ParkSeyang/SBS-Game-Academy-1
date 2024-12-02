@@ -1,2 +1,13 @@
 ﻿  Source.c
-  Program.vcxproj -> C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\x64\Debug\Program.exe
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\Source.c(169,18): error C2086: 'int i': 재정의
+  C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\Source.c(169,11):
+  'i' 선언을 참조하십시오.
+  
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\Source.c(169,20): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\Source.c(169,20): error C2143: 구문 오류: ')'이(가) '<' 앞에 없습니다.
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\Source.c(169,28): error C2059: 구문 오류: ')'
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\Source.c(174,2): error C2371: 'free': 재정의. 기본 형식이 다릅니다.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_malloc.h(89,14):
+  'free' 선언을 참조하십시오.
+  
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\Source.c(180,1): error C2059: 구문 오류: '}'
