@@ -492,6 +492,10 @@
 
 #pragma endregion
 
+#pragma region 
+
+#pragma endregion
+
 #pragma region if문 이해하기
 
 // void main()
@@ -514,3 +518,36 @@
 // }
 
 #pragma endregion
+
+
+#pragma region switch ~ case 문 활용
+// int main(void)
+// {
+// 	int rank = 2, m = 0;
+// 
+// 	switch (rank)
+// 	{
+// 	case 1:
+// 		m = 300;
+// 		break;
+// 		
+// 	case 2:
+// 			m = 200;
+// 			break;
+// 	case 3:
+// 		m = 100;
+// 		break;
+// 	default:
+// 		m = 10;
+// 		break;
+// 	}
+// 	printf("m: %d\n", m);
+// 
+// 	return 0;
+// }
+#pragma endregion
+
+#pragma region 
+
+#pragma endregion
+
