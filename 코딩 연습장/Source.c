@@ -492,25 +492,25 @@
 
 #pragma endregion
 
-#pragma region if문
+#pragma region if문 이해하기
 
-void main()
-{
-	int art = 'A';
-
-	if (art == 'B')
-	{
-		printf("당신의 학점은 B입니다.\n");
-	}
-	else if (art == 'A')
-	{
-		printf("당신의학점은 A입니다.\n");
-
-	}
-	else
-	{
-		printf("당신의 학점을 알수가 없습니다.\n");
-	}
-}
+// void main()
+// {
+// 	int art = 'A';
+// 
+// 	if (art == 'B')
+// 	{
+// 		printf("당신의 학점은 B입니다.\n");
+// 	}
+// 	else if (art == 'A')
+// 	{
+// 		printf("당신의학점은 A입니다.\n");
+// 
+// 	}
+// 	else
+// 	{
+// 		printf("당신의 학점을 알수가 없습니다.\n");
+// 	}
+// }
 
 #pragma endregion
