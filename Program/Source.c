@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 struct GameObject
 {
@@ -22,6 +23,25 @@ struct Vector2
 	float characterx2;
 	float slimey2;
 };
+struct Vector1
+{
+	float x;
+	float y;
+};
+struct Node
+{
+	int data;
+	struct Node * next;
+	
+
+};
+struct currentNode
+{
+	int set;
+	struct currentNode* next;
+
+};
+
 
 
 int main()
@@ -61,36 +81,88 @@ int main()
 #pragma endregion
 
 #pragma region 두 점 사이의 거리
-
+	// 힌트 : 
 	// printf("100의 제곱근 : %lf\n", sqrt(100));
 	// 
 	// printf("10² : %lf\n", pow(10,2));
 	
-	struct Vector2 Object;
-
-	Object.characterx = 2.3f;
-	Object.slimey = 5;
-	Object.characterx2 = 0;
-	Object.slimey2 = 4.5f;
+	// 내가 풀어본 예제
+	// struct Vector2 Object;
+	// 
+	// Object.characterx = 2.3f;
+	// Object.slimey = 5;
+	// Object.characterx2 = 0;
+	// Object.slimey2 = 4.5f;
+	// 
+	// double ranger;
+	// 
+	// ranger = ((pow(Object.characterx - Object.characterx2, 2)) + (pow(Object.slimey - Object.slimey2, 2)));
+	// 
+	// printf("캐릭터와 슬라임간의 거리 : %lf\n", sqrt(ranger));
+	// 
+	// if (ranger < 3.0f)
+	// {
+	// 	printf("슬라임이 이동하였습니다.\n");
+	// 
+	// }
+	// else if (ranger > 3.0f)
+	// {
+	// 	printf("슬라임이 당신을 공격하였습니다.\n");
+	// }
+	// return 0;
 	
-	double ranger;
+	
+	//강사님이 길게 풀어서 작동원리를 설명해준 예제
+	// struct Vector1 character = { 0, 0 };
+	// struct Vector1 slime = { 3.75f, 3.75f };
+	// 
+	// double x = character.x - slime.x;
+	// double y = character.y - slime.y;
+	// 
+	// double distance = sqrt(pow(x, 2) + pow(y, 2));
+	// 
+	// if (distance >= 3.0)
+	// {
+	// 	printf("이동상태\n");
+	// 
+	// }
+	// else if (distance < 3.0)
+	// {
+	// 	printf("공격상태\n");
+	// }
 
-	ranger = ((pow(Object.characterx - Object.characterx2, 2)) + (pow(Object.slimey - Object.slimey2, 2)));
-
-	printf("캐릭터와 슬라임간의 거리 : %lf\n", sqrt(ranger));
-
-	if (ranger < 3.0f)
-	{
-		printf("슬라임이 이동하였습니다.\n");
-
-	}
-	else if (ranger > 3.0f)
-	{
-		printf("슬라임이 당신을 공격하였습니다.\n");
-	}
 
 #pragma endregion
 
+#pragma region 자기 참조 구조체
+	// 구조체 내부에 자기 자신의 자료형을 멤버 변수로
+	// 가지고 있는 구조체입니다.
 
-	return 0;
+	struct Node* node1 = malloc(sizeof(struct Node));
+
+	struct Node* node2 = malloc(sizeof(struct Node));
+
+	struct Node* node3 = malloc(sizeof(struct Node));
+
+	node1->data = 10;
+	node2->data = 20;
+	node3->data = 30;
+
+
+	node1->next = &node2;
+	node2->next = &node3;
+	node3->next = NULL;
+	
+	struct currentNode* node1 =
+
+
+		while (i < 3;)
+		{
+			printf("")
+		}
+
+
+#pragma endregion
+
+	
 }
