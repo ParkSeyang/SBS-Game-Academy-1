@@ -17,8 +17,10 @@ struct GameObject
 
 struct Vector2
 {
-	float x;
-	float y;
+	float characterx;
+	float slimey;
+	float characterx2;
+	float slimey2;
 };
 
 
@@ -60,23 +62,31 @@ int main()
 
 #pragma region 두 점 사이의 거리
 
-	printf("100의 제곱근 : %lf\n", sqrt(100));
+	// printf("100의 제곱근 : %lf\n", sqrt(100));
+	// 
+	// printf("10² : %lf\n", pow(10,2));
 	
-	printf("10² : %lf\n", pow(10,2));
+	struct Vector2 Object;
+
+	Object.characterx = 2.3f;
+	Object.slimey = 5;
+	Object.characterx2 = 0;
+	Object.slimey2 = 4.5f;
 	
-	struct Vector2.characterx = 5;
-	struct Vector2.charactery = 5;
-	struct Vector2.slimex = 0;
-	struct Vector2.slimey = 0;
+	double ranger;
+
+	ranger = ((pow(Object.characterx - Object.characterx2, 2)) + (pow(Object.slimey - Object.slimey2, 2)));
+
+	printf("캐릭터와 슬라임간의 거리 : %lf\n", sqrt(ranger));
 
 	if (ranger < 3.0f)
 	{
-		printf("")
+		printf("슬라임이 이동하였습니다.\n");
 
 	}
 	else if (ranger > 3.0f)
 	{
-		printf("")
+		printf("슬라임이 당신을 공격하였습니다.\n");
 	}
 
 #pragma endregion
