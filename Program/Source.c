@@ -37,8 +37,8 @@ struct Node
 };
 struct currentNode
 {
-	int set;
-	struct currentNode* next;
+	int data;
+	struct currentNode * next;
 
 };
 
@@ -149,20 +149,20 @@ int main()
 	node3->data = 30;
 
 
-	node1->next = &node2;
-	node2->next = &node3;
+	node1->next = node2;
+	node2->next = node3;
 	node3->next = NULL;
 	
-	struct currentNode* node1 =
+	struct Node* currentNode= node1;
 
-
-		while (i < 3;)
+	while (currentNode != NULL)
 		{
-			printf("")
+			printf("%d ->",currentNode->data);
+			currentNode = currentNode->next;
 		}
-
+	printf("NULL\n");
 
 #pragma endregion
 
-	
+	return 0;
 }
