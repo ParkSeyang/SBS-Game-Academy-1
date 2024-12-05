@@ -492,9 +492,96 @@
 
 #pragma endregion
 
-#pragma region 
+#pragma region 변수의 선언과 사용
+	// 변수를 선언할때는 사용할 자료형(문자는 char... 정수는 int... 실수는 float,double...)을 정의하고 
+	// 그후에 변수의 명을 지어주면된다. 예시로 int bot, int a, float Tex 등등..
+	// '='를 수학에서는같다라는 표현이지만 
+	// 프로그램에서는 '='대입연산자라고한다.
+	// 대입연산자(=)는 오른쪽 값을 왼쪽에 저장(할당)한다는 의미이다.
+
+	//예제를 만들어서 학습해보기.
+// int main(void)
+// {
+// 	int a;	      // int 형 변수 a선언
+// 	int b, c;	  // 2개의 int형 변수 b, c 를 동시에 선언
+// 	double da;	  // double형 변수 da 선언
+// 	char ch;	  // char형 변수 ch 선언
+// 
+// 	a = 10;	      // int형 변수 a에 정수 10을 대입
+// 	b = a;		  // int형 변수 b에 변수 a의 값을 대입
+// 	c = a + 20;	  // int형 변수 c에 변수 a의 값과 정수 20을 더한 값대입
+// 	da = 3.5f;	  // double형 변수 da에 실수 3.5 대입
+// 	ch = 'A';	  // char형 변수 ch에 문자 'A' 대입
+// 
+// 	printf("변수 a의 값 : %d\n", a);
+// 	printf("변수 b의 값 : %d\n", b);
+// 	printf("변수 c의 값 : %d\n", c);
+// 	printf("변수 da의 값 : %.1lf\n", da);
+// 	printf("변수 ch의 값 : %c\n", ch);
+// 
+// return 0;
+// }
 
 #pragma endregion
+
+#pragma region char형 변수의 사용
+	//#include <stdio.h>
+
+// int main(void)
+// {
+// 	char ch1 = 'A';  // 문자로 초기화. 저장된 값은 문자의 아스키 코드 값
+// 	char ch2 = 65;	 // 문자 'A'의 아스키 코드 값에 해당하는 정수로 초기화
+// 
+// 	printf("문자%c의 아스키 코드 값 : %d\n", ch1, ch2);
+// 	printf("아스키 코드 값이 %d인 문자 : %c\n", ch2, ch1);
+// 
+// 	return 0;
+// }
+
+#pragma region 여러가지 정수형 변수
+	//#include<stdio.h>
+
+ // int main(void)
+ // {
+ // 	short sh = 32767;					//short형 의 최댓값 초기화
+ // 	int in = 2147483647;				//int형 의 최댓값 초기화
+ // 	long ln = 2147483647;				//long형 의 최댓값 초기화
+ // 	long long lln = 123451234512345;	//아주 큰 값 초기화
+ // 
+ // 	printf("short형 변수 출력 : %d\n", sh);
+ // 	printf("int형 변수 출력 : %d\n", in);
+ // 	printf("long형 변수 출력 : %ld\n", ln);
+ // 	printf("longlong형 변수 출력 : %lld\n", lln);	//long long 형은 lld 로 출력
+ // 	
+ // 	printf("longlong형의 크기 : %d바이트\n", sizeof(long long));  //자료형의 크기를 알아내는 sizeof 연산자
+ // 		//현재 사용하는 컴파일러에서 구현된 자료형의 크기가 궁금하면 sizeof 연산자로 확인할수있다.
+ // 		//sizeof는 자료형의 크기를 바이트 단위로 계산해주며 위와 같이 사용하면 된다.
+ // 	return 0;
+ // }
+
+
+#pragma endregion
+
+#pragma region unsigned를 잘못 사용한 경우
+	// #include <stdio.h>
+
+// int main(void)
+// {
+// 	unsigned int a;
+// 
+// 	a = 4294967295;		// 큰 양수 저장
+// 	printf("%d\n", a);	// %d로 출력
+// 	a = -1;				// 음수 저장
+// 	printf("%u\n", a);	// %u로 출력
+// 
+// 	return 0;
+// }
+#pragma endregion
+
+
+#pragma endregion
+
+
 
 #pragma region if문 이해하기
 
@@ -518,7 +605,6 @@
 // }
 
 #pragma endregion
-
 
 #pragma region switch ~ case 문 활용
 // int main(void)
@@ -546,8 +632,3 @@
 // 	return 0;
 // }
 #pragma endregion
-
-#pragma region 
-
-#pragma endregion
-
