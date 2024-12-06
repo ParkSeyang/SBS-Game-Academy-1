@@ -1,4 +1,7 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
+
+
 #pragma region 우성이랑 함수 복습한내용(2024.11.28)
 //void swap(int left, int right)
 //{
@@ -58,10 +61,6 @@
 //	
 //}
 
-
-
-
-
 //void calPlus(int num1, int num2)
 //{
 //	int plus = num1 + num2;
@@ -80,11 +79,6 @@
 //	int num4 = 40;
 //	calPlus(num3, num4);
 //}
-
-
-
-
-
 //int  multiplication(int num1, int num2)
 //{
 //
@@ -187,10 +181,6 @@
 //		printf("\n");
 //	}
 //	
-//
-//
-//
-//
 //	int c, d, e;
 //
 //	int
@@ -235,13 +225,6 @@
 	}
 	printf("7의 개수 : %d\n", count);*/
 
-
-
-
-
-
-
-
 	/*string s = "abcde";
 	s= "abc"
 		s = "abdasefafe"
@@ -279,10 +262,6 @@
 //	 array[1] = 20;
 //	 array[2] = 30;
 //	 
-//
-//
-//
-//
 //	 int a = 10;
 //	 int b = 20;
 //	 int c = 30;
@@ -294,11 +273,7 @@
 //
 //		 function(arr)
 //
-//
-//
 //		 arr[].length;
-//
-//
 //
 //	 int arr[3] = { a, b, c };
 //	 for ()
@@ -576,11 +551,70 @@
 // 
 // 	return 0;
 // }
+// 명심해야될점. unsigned 자료형을 쓸때는 항상 양수만 저장하고 서식지정자는 %u로 출력한다.
 #pragma endregion
 
 
 #pragma endregion
 
+#pragma region 실수 자료형(유효 숫자 확인)
+	// include <stdio.h>
+
+// int main(void)
+// {
+// 	float ft = 1.234567890123456789;	// 유효 숫자가 많은 값으로 초기화.
+// 
+// 	double db = 1.234567890123456789;
+// 
+// 	printf("float형 변수의 값 : %.20f\n", ft);
+// 	printf("double형 변수의 값 : %.20lf\n", db);
+// 
+// 	return 0;
+// }
+
+	// 출력값이 초깃값과 다른이유 : 컴퓨터에서 실수를 표현하는 방식이 오차를 갖고있기 때문이다.
+	// float 형은 유효 숫자 7자리 double형은 15자리의 범위내의 값을 사용하는게 좋습니다.
+	
+	// 유효숫자를 계산해가며 프로그래밍하는것이 힘들다면 다음 2가지 방법을 사용하자
+	// 1번째 정수형을 기본으로 사용하고 꼭필요한 경우에만 실수형을 사용하자.
+	// 2번째 실수형은 유효숫자가 많은 double형을 기본으로 사용합니다.
+
+#pragma endregion
+
+#pragma region char 배열에 문자열 저장
+	// include <stdio.h>
+
+// int main(void)
+// {
+// 	char fruit[20] = "starwberry";				 // char 배열 선언과 문자열 초기화.
+// 
+// 	printf("딸기 : %s\n", fruit);				 // 배열명으로 저장된 문자열 출력
+// 	printf("딸기잼 : %s %s\n", fruit, "jam");	 // 문자열 상수를 직접 %s로 출력
+// 
+// 	return 0;
+// }
+
+// 문자열은 char형을 배열 형태로 만들어 저장하며 %s로 출력된다.
+
+#pragma region char 배열에 문자열 복사
+	// include <stdio.h>
+	// include <string.h>	// 문자열을 다룰 수 있는 string.h 헤더 파일 포함
+
+// int main(void)
+// {
+// 	char fruit[20] = "strawberry";	// strawberry로 초기화
+// 
+// 	printf("%s\n", fruit);			// strawberry로 출력
+// 	strcpy(fruit, "banana");		// fruit에 banana 복사 strcpy함수는 string copy의 줄임말로 문자열을 복사한다.
+// 	printf("%s\n", fruit);			// banana 출력
+// 
+// 	return 0;
+// 
+// }
+#pragma endregion
+
+
+#pragma endregion
 
 
 #pragma region if문 이해하기

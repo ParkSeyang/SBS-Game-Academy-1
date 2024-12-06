@@ -21,7 +21,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class 7th (Iteration Statem
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class 8th (Pointer)", "..\Class 8th (Pointer)\Class 8th (Pointer).vcxproj", "{26E2402E-F865-433B-98BE-E9C04319E834}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "코딩 연습장", "..\코딩 연습장\코딩 연습장.vcxproj", "{C5F8AB7A-A467-4868-9C8C-287FE5FB0956}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "코딩 C언어 기초 예제연습장 1", "..\코딩 연습장\코딩 연습장.vcxproj", "{C5F8AB7A-A467-4868-9C8C-287FE5FB0956}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class 9th (Arrangement)", "..\Class 9th (Arrangement)\Class 9th (Arrangement).vcxproj", "{F0245610-C7F4-409C-AA07-642D54235E0E}"
 EndProject
@@ -30,6 +30,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class 11th (Dynamic Allocation)", "..\Class 11th (Dynamic Allocation)\Class 11th (Dynamic Allocation).vcxproj", "{D696E8FD-55BA-4C5D-A45F-941C4DFAB544}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class 12th (Struct)", "..\Class 12th (Struct)\Class 12th (Struct).vcxproj", "{DEF1C834-978C-47EF-9FE9-943663A17189}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "코딩 C언어 기초 예제연습장 2", "..\C언어 기초 마스터 하기 프로젝트\C언어 기초 마스터 하기 프로젝트.vcxproj", "{75E4CC67-9405-40CA-9BF1-744051DE3D04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -151,6 +153,14 @@ Global
 		{DEF1C834-978C-47EF-9FE9-943663A17189}.Release|x64.Build.0 = Release|x64
 		{DEF1C834-978C-47EF-9FE9-943663A17189}.Release|x86.ActiveCfg = Release|Win32
 		{DEF1C834-978C-47EF-9FE9-943663A17189}.Release|x86.Build.0 = Release|Win32
+		{75E4CC67-9405-40CA-9BF1-744051DE3D04}.Debug|x64.ActiveCfg = Debug|x64
+		{75E4CC67-9405-40CA-9BF1-744051DE3D04}.Debug|x64.Build.0 = Debug|x64
+		{75E4CC67-9405-40CA-9BF1-744051DE3D04}.Debug|x86.ActiveCfg = Debug|Win32
+		{75E4CC67-9405-40CA-9BF1-744051DE3D04}.Debug|x86.Build.0 = Debug|Win32
+		{75E4CC67-9405-40CA-9BF1-744051DE3D04}.Release|x64.ActiveCfg = Release|x64
+		{75E4CC67-9405-40CA-9BF1-744051DE3D04}.Release|x64.Build.0 = Release|x64
+		{75E4CC67-9405-40CA-9BF1-744051DE3D04}.Release|x86.ActiveCfg = Release|Win32
+		{75E4CC67-9405-40CA-9BF1-744051DE3D04}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
