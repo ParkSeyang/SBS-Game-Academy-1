@@ -8,14 +8,10 @@ void main()
 #pragma region 자료형
 	// 데이터를 저장하기 위해 데이터의 형태를 정해주는 것입니다.
 
-	// char alphabet= 'A';
+	// char alphabet = 'A';
 	// int integer = 100;
 	// float decimal = 15.5f;
 	// 
-	// alphabet = 'B';
-	// integer = 95;
-	// decimal = 7.85f;
-
 	// char - 문자 , int - 정수, float - 실수
 
 	// 자료형은 각각의 자료형마다 크기가 정해져 있으며, 자료형의
@@ -25,6 +21,10 @@ void main()
 
 #pragma region 서식 지정자
 	// 출력하기 위한 자료형의 정보를 명시적으로 지정해주는 것입니다.
+
+	// alphabet = 'B';
+	// integer = 95;
+	// decimal = 7.85f;
 
 	// %c : 문자를 출력하기 위한 서식 지정자
 	// printf("alphabet 변수의 값 : %c\n", alphabet);
