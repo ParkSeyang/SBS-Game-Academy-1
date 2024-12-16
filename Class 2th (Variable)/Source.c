@@ -48,11 +48,12 @@ void main()
 
 	// 4. 변수의 이름으로 공백이 포함될 수 없습니다.
 	// ex) int count down;
-
+	// ex) float up town;
+	 
 	// 5. 변수의 이름으로 특수 기호는 _와 $만 허용됩니다.
 	// ex) int game_Academy;
 	// ex) int jump$up;
-	// 
+	 
     // 변수는 프로그램이 실행되는 동안 값을 바꿀 수 있으며,
 	// 원래 저장되어 있는 값은 새로 저장되는 값에 의해 지워집니다.
 
@@ -74,8 +75,17 @@ void main()
 	// 리터럴 상수라고 하며, 메모리 공간을 가지고 있는 상수를
 	// 심볼릭 상수라고 합니다.
 
+	const char word = 'a';
+	const int  key = 100;
+
+	
+	printf("const char 의 문자 : %c\n", word);
+	printf("const int의 숫자 : %d\n", key);
+
 	// 상수는 메모리 공간을 생성하는 동시에 초기화해야 하며,
 	// 한 번 저장된 값은 더 이상 변경할 수 없습니다.
+
+#define SIZE 10
 
 #pragma endregion
 
