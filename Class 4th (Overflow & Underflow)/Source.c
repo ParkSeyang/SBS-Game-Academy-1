@@ -6,9 +6,9 @@ void main()
 	// 특정한 자료형이 표현할 수 있는 최대값의 범위를
 	// 넘어서 연산을 수행하는 과정입니다.
 
-	// char character = 129; // <- -128
-
-	// printf("character 변수의 값 : %d\n", character);
+	 // char character = 128; // 결과 : <- -128 char의 값의범위는 -128 ~ +127이다.
+	 // 
+	 // printf("character 변수의 값 : %d\n", character);
 
 	// 오버플로우는 부호 없는 자료형에서도 똑같이 발생하며,
 	// 실수일 때, 오버플로우가 발생하면 infinity라는 값이 출력됩니다.
@@ -18,7 +18,7 @@ void main()
 	// 특정한 자료형이 표현할 수 있는 최솟값의 범위
 	// 를 넘어서 연산을 수행하는 과정입니다.
 
-	// char alphabet = -129;
+	// char alphabet = -129;  // 결과 : -> +127
 
 	// printf("alphabet 변수의 값 : %d\n", alphabet);
 
@@ -39,6 +39,7 @@ void main()
 
 #pragma region 산술 연산자
 
+	//  int x1 = 15;
 	// int data = 10;
 	// const int constant = 10;
 
@@ -61,7 +62,6 @@ void main()
 	// int result4 <- 리터럴 상수 / 리터럴 상수
 	// int result5 <- 심볼릭 상수 % 심볼릭 상수
 
-	int x1 = 15;
 #pragma endregion
 
 #pragma region 부호 없는 자료형
