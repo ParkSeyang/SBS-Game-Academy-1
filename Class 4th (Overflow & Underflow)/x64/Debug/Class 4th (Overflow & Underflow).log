@@ -1,3 +1,4 @@
 ﻿  Source.c
-C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Class 4th (Overflow & Underflow)\Source.c(21,20): warning C4305: '초기화 중': 'int'에서 'char'(으)로 잘립니다.
-  Class 4th (Overflow & Underflow).vcxproj -> C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\x64\Debug\Class 4th (Overflow & Underflow).exe
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Class 4th (Overflow & Underflow)\Source.c(63,1): error C3873: '0xa0': 이 문자는 식별자의 첫 문자로 사용할 수 없습니다.
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Class 4th (Overflow & Underflow)\Source.c(77,6): error C2065: ' ': 선언되지 않은 식별자입니다.
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Class 4th (Overflow & Underflow)\Source.c(77,2): error C2143: 구문 오류: ';'이(가) '형식' 앞에 없습니다.
