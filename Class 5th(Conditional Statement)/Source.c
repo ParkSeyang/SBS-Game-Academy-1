@@ -34,11 +34,14 @@ void main()
 	// 다음 곱한 결과의 정수 부분을 위에서 아래로 순서대로
 	// 정렬 합니다.
 
-	//float packet = 3.125f;
-	//float pi = 3.14159265f;
+	// float packet = 3.125f;
+	// float pi = 3.14159265f;
 
-	//printf("packet 변수의 값 : %f\n", packet);
-	//printf("pi 변수의 값 : %.8f\n", pi);
+	// printf("packet 변수의 값 : %f\n", packet);
+	// 결과 : 3.125000
+	 
+	// printf("pi 변수의 값 : %.8f\n", pi);
+	// 결과 : 3.14159274
 
 	// 표준 출력함수로 소수를 출력할 때 4byte 크기의
 	// 실수형 자료형은 소수점 이하 6자리까지만 표기하며,
@@ -67,7 +70,7 @@ void main()
 	// int data4 = 10 <= 5;		// 10이 5보다 작거나 같다.
 	// int data5 = 10 == 5;		// 10이 5와 같다.
 	// int data6 = 10 != 5;		// 10은 5와 같지않다.
-
+	//
 	// printf("data1의 값 :%d\n", data1);
 	// printf("data2의 값 :%d\n", data2);
 	// printf("data3의 값 :%d\n", data3);
