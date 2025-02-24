@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 
 #pragma region 전처리기
 // 프로그램이 컴파일되기 이전에 프로그램에 대한
@@ -233,6 +233,54 @@ void main()
 	// 또한 if문에 연결된 모든 조건문의 조건이 맞을 때
 	// 가장 위에 있는 조건문만 실행됩니다.
 #pragma endregion
+
+#pragma region 중첩된 if문
+	// 중첩된 if문이란 if문의 { } 안에 또 다른 if문이 오는 경우를 말합니다.
+  // 예제
+	//int main()
+	{
+		char job;
+
+		printf("전사로 전직하였습니다 바로2차전직을하시겠습니까 ?? 수락(Y), 거절(N)");
+
+		scanf_s("%c", &job);
+
+		if (job = 'Y')
+		{
+			int warrior;
+
+			printf("1번 광전사(Berserker), 2번 웨폰마스터(Weaponmaster), 3번 마검사(Soulbringer)\n");
+
+			scanf_s("%d", &warrior);
+
+			if (warrior == 1)
+			{
+				printf("축하합니다! 당신의 직업은 광전사입니다.\n");
+			}
+			else if (warrior == 2)
+			{
+				printf("축하합니다! 당신의직업은 웨폰마스터입니다.\n");
+			}
+			else if (warrior == 3)
+			{
+				printf("축하합니다! 당신의직업은 귀검사 입니다.\n");
+			}
+
+			else
+			{
+				printf("전사 직업 계얼이아닙니다.\n");
+			}
+		}
+		else if (job = 'N')
+		{
+			printf("전직을 거절하셨습니다.\n");
+		}
+		
+		return 0;
+	}
+	
+#pragma endregion
+
 
 #pragma region switch문
    // 어떤 결과에 따라 그결과부터 실행되는 명령문입니다.
