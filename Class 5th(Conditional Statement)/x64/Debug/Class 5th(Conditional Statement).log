@@ -1,7 +1,2 @@
 ﻿  Source.c
-C:\Users\OFFICE\Desktop\SBS-Game-Academy-1\Class 5th(Conditional Statement)\Source.c(246,11): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
-C:\Users\OFFICE\Desktop\SBS-Game-Academy-1\Class 5th(Conditional Statement)\Source.c(246,11): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
-C:\Users\OFFICE\Desktop\SBS-Game-Academy-1\Class 5th(Conditional Statement)\Source.c(246,11): message : 누락된 variadic 인수 2이(가) 서식 문자열 '%c'에 필요합니다.
-C:\Users\OFFICE\Desktop\SBS-Game-Academy-1\Class 5th(Conditional Statement)\Source.c(246,11): message : 이 인수는 버퍼 크기로 사용됩니다.
-C:\Users\OFFICE\Desktop\SBS-Game-Academy-1\Class 5th(Conditional Statement)\Source.c(279,3): warning C4098: 'main': 'void' 함수에서 값을 반환하고 있습니다.
-  Class 5th(Conditional Statement).vcxproj -> C:\Users\OFFICE\Desktop\SBS-Game-Academy-1\Program\x64\Debug\Class 5th(Conditional Statement).exe
+C:\Users\OFFICE\Desktop\SBS-Game-Academy-1\Class 5th(Conditional Statement)\Source.c(289,18): error C2050: switch 식이 정수 계열이 아닙니다.
