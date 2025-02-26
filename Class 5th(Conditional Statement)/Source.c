@@ -284,13 +284,42 @@ void main()
 #pragma region switch문
    // 어떤 결과에 따라 그결과부터 실행되는 명령문입니다.
 
-   // int scene = 1;
-   //
-   // switch (scene)
-   // {
-   // case 1: printf("마을");
-   // case 2: printf("던전");
-   // }
+  // char scene = 'A';
+   
+  // switch (scene)
+  // {
+  // case 'A': printf("마을");
+	   
+  // case 'B': printf("광장");
+	   
+  // case 'C': printf("던전");
+	 
+  // }
+   // 예제 2
+   // int Rank = 1;
+   //  
+   //  switch (Rank)
+   //  {
+   //  case 1: 
+   //  printf("당신의 등급은 'A'입니다.");
+   //  break;
+   //  
+   //  case 2:
+   //  printf("당신의 등급은 'B'입니다.");
+   //  break;
+   //  
+   //  case 3:
+   //  printf("당신의 등급은 'C'입니다.");
+   //  break;
+   //  
+   //  case 4:
+   //  printf("당신의 등급은 'D'입니다.");
+   //  break;
+   //  
+   //  default:
+   //  printf("당신의 등급은 'F'입니다.");
+   //  break;
+   //  }
 #pragma region break문
 	// 특정한 지점에서 분기를 탈줄하는 제어문입니다.
 
@@ -318,6 +347,9 @@ void main()
 
 	   // switch문의 경우 조건에 해당하는 값에 따라 조건의
 	   // 위치로 이동합니다
+
+	// https://jimmy-ai.tistory.com/63 Switch~ case 문의 유의사항 및 참고사항 설명집
+
 #pragma endregion
 
 #pragma region 논리 연산자
