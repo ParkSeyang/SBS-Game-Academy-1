@@ -4,7 +4,7 @@
 #define printf_num(x) printf("%d\n",x)
 #define PRINT_HELLOWORLD printf("Hello World!!\n");\
 printf("Nice meet you!");
-
+#define MUL(x,y) printf("%d\n",x*y)
 
 void main()
 {
@@ -67,7 +67,8 @@ void main()
 
 	// 정수형 변수끼리 연산을 수행하게 되면 정수의
 	// 결과 값만 가질 수 있습니다.
-
+	
+	// 참고 자료
 	// https://velog.io/@limehee/C%EC%96%B8%EC%96%B4-%EC%9E%90%EB%A3%8C%ED%98%95-%EB%B3%80%ED%99%98
 #pragma endregion
 
@@ -76,8 +77,8 @@ void main()
 #pragma region 매크로
 	// 프로그램 내에서 특정한 데이터가 문자열로
 	// 정의되고 처리되는 과정입니다.
-	// 예제 1)
 	// 
+	// 예제 1)
 	// printf("매크로 SIZE의 값 : %d\n", SIZE);
 	// 
 	// 매크로의 경우 자료형이 존재하지 않으므로,
@@ -91,22 +92,36 @@ void main()
 	// 
 	// 부가설명
 	// 함수형식의 매크로는 한줄밖에 사용이 안되는건가??
-	// ​'\' (역슬래시)를 사용하면 매크로를 여러줄을 하나로 묶어서 매크로를 정의 할 수 있습니다.
+	// ​'\' (역슬래시)를 사용하면 매크로의 여러줄을 하나로 묶어서 매크로를 정의 할 수 있습니다.
     // #define 에서는 \(역슬래시)를 줄바꿈으로 인식하기 때문에 
-	// 해당 기호를 사용하여 아래와 같이 코드를 구성할 수 있습니다.
-	// 
+	// 해당 기호를 사용하여 위의 예제3번 같이 코드를 구성할 수 있습니다.
+	// 예제 3
 	// ex) #define PRINT_HELLOWORLD printf("Hello World!!\n");\
     //     printf("Nice meet you!");
-// 
+	// 
+	// 예제 4)
+	// MUL(4,5); 
+	// 결과 : 20
+	// 
+	// MUL(2 + 2, 2 + 3); 
+	// 결과 : 9 (2+2*2+3 으로 곱셈이 먼저계산되어서 9라는값이 출력됨.)
+	// 
+	// 부가설명
+	// MUL의 값을 두개 다 4*5 = 20으로 출력할려면 #define MUL(x,y) printf("%d\n",(x)*(y)) 로 바꿔서
+	// 각각의 인자에 해당하는 부분에 ( ) 소괄호로 각각의 매개변수를 구분해주면 됩니다.
+	// 
 	// 참고 자료 
     // https://m.blog.naver.com/pk3152/221559110925
 #pragma endregion
 
 #pragma region 예제 사분면
 	
-	 int x = 5;
+	 int x = 0;
 	 int y = 0;
-	 
+	 printf(" x와 y 값을 입력해주십시오 : ");
+	 scanf_s("%d %d", &x, &y);
+
+
 	 if (x > 0 && y > 0)
 	 {
 	 	printf("제 1 사분면 입니다.\n");
