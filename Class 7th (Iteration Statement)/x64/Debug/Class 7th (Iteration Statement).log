@@ -1,2 +1,2 @@
 ﻿  Source.c
-  Class 7th (Iteration Statement).vcxproj -> C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\x64\Debug\Class 7th (Iteration Statement).exe
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Class 7th (Iteration Statement)\Source.c(177,1): error C4700: 초기화되지 않은 'i' 지역 변수를 사용했습니다.

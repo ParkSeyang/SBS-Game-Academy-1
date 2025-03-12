@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <windows.h>
 void main()
 {
 #pragma region 반복문
@@ -86,6 +86,7 @@ void main()
 	// {
 	//  ②조건식의 결과가 참인 동안 반복적으로 실행하고자 하는 명령문;
 	// }
+	
 	// 강사님이 한 예제
 	// int count = 1;        
 	// 
@@ -96,12 +97,26 @@ void main()
 	// 		count++;
 	// }                      
 
-	// int y = 6;     //내가 한 예제
-	// while (--y)
+	// 내가 한 예제
+	// int y = 2;
+	// if (y == 2)
 	// {
-	// 	printf("y의 값. %d\n", y);
+	//  while (y < 128)
+	//  {
+	// 	 y *= 2;
+	// 	 printf("y의 2제곱의 값 : %d\n", y);
+	//  }
+	// }
+	// else if(y == 3)
+	// {
+	//  while (y < 384)
+	//  {
+	// 	 y *= 2;
+	// 	 printf("y의 3제곱 값 : %d\n", y);
+	//  }
 	// }
 
+	 
 	// while문의 경우 위에서 아래로 실행되며,
 	// 아래에 있는 명령문의 실행이 다 끝나면
 	// 다시 위에 있는 명령문으로 돌아가서 실행합니다.
@@ -110,18 +125,59 @@ void main()
 #pragma region do while문
 	// 조건과 상관없이 한 번의 작업을 수행한 다음
 	// 조건에 따라 명령문을 실행하는 반복문입니다.
-
-	// int connection = 0;
-	// 
+	// 예시
 	// do
 	// {
-	// 	printf("Connection...");
-	// } 
-	// while (connection > 0);
-
+	//  ①조건식의 결과가 참인 동안 반복적으로 실행하고자 하는 명령문;
+	// } while(②조건식);
+	
+	// 예제)
+	// int connection = 10;
+	 
+	// do
+	// {
+	// 	printf("Connecting...\n");
+	//	connection -= 1;
+	//	Sleep(3000);
+	// } while (connection > 0);
+	// printf("Connection complete!");
+	 
+	// 예제2)
+	// int a = 1;
+	// do
+	// {
+	// 	a = a * 2;
+	// 	printf("a 의 값 : %d\n", a);
+	// } while (a< 10);
+	
+	// 부가설명
+	// 반복문들은 반복문안에 반복할 문장이 한문장이면 
+	// 중괄호를 생략할 수 있습니다.
+	// 
+	// 예시
+	// int i = 0;
+	// for (int i = 0; i < 5; i++)
+	// printf("중괄호 생략\n");
 #pragma endregion
 
-#pragma region continue문
+#pragma region 반복문에서의 break문과 continue문
+	// break 문
+	// 임의로 반복문안에서 반복을 즉시 끝낼때 사용합니다.
+	// 
+	// 예제)
+	 int i;	// 반복 횟수를 세기위한 제어 변수
+	 int sum = 0; // 1부터 10까지의 합을 누적할 변수
+	 
+	 for (int i = 0; i<=10; i++) // i 는 1부터 10까지 증가하면서 열 번 반복
+	 {
+	 	sum += i; // i값을 sum에 누적
+	 	if (sum > 30)break; // 누적한 값이 30보다 크면 반복문을 끝낸다.
+	 }
+	 printf("누적한 값 : %d\n",sum);
+	 printf("마지막으로 더한 값 : %d\n", i);
+
+	// continue문
+	// 
 	// 해당 조건문만 실행하지 않고 반복문은 이어서
 	// 실행하는 제어문입니다.
 
@@ -133,8 +189,7 @@ void main()
 	// 	}
 	// 	printf("%d\n", i);
 	// }
-
-
+	
 #pragma endregion
 
 #pragma region 단축 평가 계산
