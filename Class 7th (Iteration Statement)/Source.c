@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <windows.h>
-void main()
+int main()
 {
 #pragma region 반복문
 	// 프로그램 내에서 특정한 작업을 반복적으로
@@ -240,21 +240,20 @@ void main()
 	// 계산을 진행하는 도중에 결과가 이미 확정된 경우
 	// 나머지 계산하는 과정을 생략하는 평가입니다.
 
-	// int x = 0;
-	// int y = 0;
-	// int z = 0;
-	// 
-	// if (x == 0 && y++)
-	// 	{
-	// 	printf("Short Circuit\n");
-	// 	}
-	// 
-	// if (z != 0 || y++)
-	// {
-	// 	printf("OR Operrator");
-	// }
-	// 
-	// printf("y의 값 : %d\n", y);
+	 int x = 0;
+	 int y = 0;
+	 int z = 0;
+	 if (x == 0 && y++)
+	 {
+	 	printf("Short Circuit\n");
+	 }
+	 
+	 if (z != 0 || y++)
+	 {
+	 	printf("OR Operrator\n");
+	 }
+	
+	 printf("y의 값 : %d\n", y);
 
 #pragma endregion
 
