@@ -240,37 +240,51 @@ int main()
 	// 계산을 진행하는 도중에 결과가 이미 확정된 경우
 	// 나머지 계산하는 과정을 생략하는 평가입니다.
 
-	 int x = 0;
-	 int y = 0;
-	 int z = 0;
-	 if (x == 0 && y++)
-	 {
-	 	printf("Short Circuit\n");
-	 }
-	 
-	 if (z != 0 || y++)
-	 {
-	 	printf("OR Operrator\n");
-	 }
-	
-	 printf("y의 값 : %d\n", y);
-
+	// int x = 0;
+	// int y = 0;
+	// int z = 0;
+	// if (x == 0 && y++)
+	// {
+	// 	printf("Short Circuit\n");
+	// }
+	// 
+	// if (z != 0 || y++)
+	// {
+	// 	printf("OR Operrator\n");
+	// }
+	//
+	// printf("y의 값 : %d\n", y);
+	// 
+	// 풀이 설명
+	// 첫번째 if 문 (x == 0 &&(AND연산자) y++) 에서 &&(AND)연산자는
+	// 둘다 참이여야만 결과값이 참이 나옵니다. x == 0 은 참 그리고 y++는
+	// y를 1 증감 시키므로 참입니다 그러므로 확정적으로 참이기때문에 if 문안에 printf 함수가
+	// 생락 되어 버리는걸 알수있습니다.
+	// 
+	// 두번째 if문(z != 0 || y++) 에서 ||(OR) 연산자는 둘중하나라도 참이면 결과 값이 참이됩니다.
+	// z != 0은 z가 0이므로 거짓입니다 y++ 은 y를 1 증가 시키므로 참입니다.
+	// 
+	// 따라서 확정적인 참이아닌 계산과정에서 참이 되었으므로 계산이 생략되지않고 진행됩니다.
+	// 결국 두번째 if문은 참이므로 printf 함수가 출력됩니다.
+	// 
+	// 마지막 printf 함수에서 y값은 첫번째 if문과 두번째 if문에서 y값은 1씩 증감했으므로 
+	// y값은 2입니다.
 #pragma endregion
 
 #pragma region (2)중 for문
+	
 
-	// for (int i = 0; i < 3; i++)
-	// {
-	// 	printf("i의 값 : %d\n",i);
-	// 
-	// 	for (int j = 0; j < 3; j++)
-	// 	{
-	// 		printf("j의 값 : %d\n", j);
-	// 	}
-	// 	printf("\n");
-	// }
-
-
+	 for (int i = 0; i < 3; i++)
+	 {
+	 	printf("i의 값 : %d\n",i);
+	 
+	 	for (int j = 0; j < 3; j++)
+	 	{
+	 		printf("j의 값 : %d\n", j);
+	 	}
+	 	printf("\n");
+	 }
+	
 #pragma endregion
 
 
