@@ -3,7 +3,7 @@
 void main()
 {
 #pragma region 주소 연산자
-	// 변수의 주소 값을 반환하는 연산자입니다.
+	// 주소연산자(&)란 변수의 주소 값을 반환하는 연산자입니다.
 
 	// int data = 10;
 
@@ -33,52 +33,6 @@ void main()
 	// 표준 입력 함수로 데이터를 입력하게 되면
 	// 버퍼에 데이터를 보관하였다가 입력하는 순간
 	// 버퍼 안의 내용을 프로그램에 전송합니다.
-#pragma endregion
-
-#pragma region (2)중 for문을 이용한 별찍기
-	// 내가한 예제 1,2
-		// int i = 0, j = 0;
-		// 
-		// for (i = 0; i < 5; i++)
-		// {
-		// 	for (j = 0; j <= i; j++)
-		// 	{
-		// 	printf("*");
-		//  }
-		// 	printf("\n");
-		// }
-
-		// *   결과값
-		// **
-		// ***
-		// ****
-		// ******
-
-	// for(int i = 0; i < 5; i++ )
-	// {
-	// for(int j = 0; j <= i; j++ )
-	// {
-	// 	 printf("*");
-	// }
-	// printf("\n");
-	// }
-
-	//  강사님의 예제
-
-	// int input = 0;
-	// 
-	// scanf_s("%d", &input);
-	// 
-	// for (int i = 0; i < input; i++)
-	// {
-	// 	for (int j = 0; j <= i; j++)
-	// 	{
-	// 		printf("★");
-	// 	}
-	// 	printf("\n");
-	// }
-
-
 #pragma endregion
 
 #pragma region 포인터

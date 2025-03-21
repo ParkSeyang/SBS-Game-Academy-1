@@ -3,10 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy-1\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BADF5BB6-A1FA-4325-A508-A6D14CC7B9BC}|..\\Class 7th (Iteration Statement)\\Class 7th (Iteration Statement).vcxproj|C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy-1\\Class 7th (Iteration Statement)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{26E2402E-F865-433B-98BE-E9C04319E834}|..\\Class 8th (Pointer)\\Class 8th (Pointer).vcxproj|C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy-1\\Class 8th (Pointer)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26E2402E-F865-433B-98BE-E9C04319E834}|..\\Class 8th (Pointer)\\Class 8th (Pointer).vcxproj|C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy-1\\Class 8th (Pointer)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BADF5BB6-A1FA-4325-A508-A6D14CC7B9BC}|..\\Class 7th (Iteration Statement)\\Class 7th (Iteration Statement).vcxproj|C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy-1\\Class 7th (Iteration Statement)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{076E6FA5-BE2D-438F-ABD7-11D35F69006A}|..\\Class 10th (Function)\\Class 10th (Function).vcxproj|C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy-1\\Class 10th (Function)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -80,7 +80,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -121,26 +121,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy-1\\Class 8th (Pointer)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class 8th (Pointer)\\Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy-1\\Class 8th (Pointer)\\Source.c",
               "RelativeToolTip": "..\\Class 8th (Pointer)\\Source.c",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAADAAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-12T07:57:42.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy-1\\Class 7th (Iteration Statement)\\Source.c",
               "RelativeDocumentMoniker": "..\\Class 7th (Iteration Statement)\\Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\SBS-Game-Academy-1\\Class 7th (Iteration Statement)\\Source.c",
               "RelativeToolTip": "..\\Class 7th (Iteration Statement)\\Source.c",
-              "ViewState": "AgIAAA8BAAAAAAAAAAAYwBMBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-07T11:23:01.158Z",
               "EditorCaption": ""

@@ -272,21 +272,77 @@ int main()
 #pragma endregion
 
 #pragma region (2)중 for문
-	
-
-	 for (int i = 0; i < 3; i++)
-	 {
-	 	printf("i의 값 : %d\n",i);
-	 
-	 	for (int j = 0; j < 3; j++)
-	 	{
-	 		printf("j의 값 : %d\n", j);
-	 	}
-	 	printf("\n");
-	 }
-	
+	// 예제)
+	// int x = 0;
+	// int y = 0;
+	//  for (int i = 0; i < 3; i++)
+	//  {
+	//  	printf("i의 값 : %d\n",i);
+	// 	++x;
+	//  	for (int j = 0; j < 3; j++)
+	//  	{
+	//  		printf("j의 값 : %d\n", j);
+	// 		++y;
+	//  	}
+	//  	printf("\n");
+	//  }
+	//  printf("반복측정 x의 값 : %d\n",x);
+	//  printf("반복측정 y의 값 : %d\n",y);
+	// 
+	// 풀이 설명
+	// 2중 for문 i와 j에는 각자 3번의 반복횟수를 부여하였지만
+	// i와 j의 총 반복횟수는 서로 다릅니다 그 이유는 외부반복문이
+	// 실행될때마다 내부반복문이 반복하기 때문입니다. 그래서 i가 한번
+	// 반복될때마다 j는 그안에서 3번 반복 하게 됩니다. 그래서 i는 총3번
+	// j는 9번을 반복하게 됩니다.
 #pragma endregion
 
+#pragma region (2)중 for문을 이용한 별찍기
+	// 내가한 예제 1,2
+	// int i = 0;
+	// int j = 0;
+	// 
+	// for (i = 0; i < 5; i++)
+	// {
+	// 	for (j = 0; j <= i; j++)
+	// 	{
+	// 	printf("*");
+	//    }
+	// 	printf("\n");
+	// }
+
+	// *   결과값
+	// **
+	// ***
+	// ****
+	// *****
+
+	// for(int i = 0; i < 5; i++ )
+	// {
+	// for(int j = 0; j <= i; j++ )
+	// {
+	// 	 printf("*");
+	// }
+	// printf("\n");
+	// }
+
+	//  강사님의 예제
+
+	// int input = 0;
+	// 
+	// scanf_s("%d", &input);
+	// 
+	// for (int i = 0; i < input; i++)
+	// {
+	// 	for (int j = 0; j <= i; j++)
+	// 	{
+	// 		printf("★");
+	// 	}
+	// 	printf("\n");
+	// }
+
+
+#pragma endregion
 
 #pragma endregion
 
