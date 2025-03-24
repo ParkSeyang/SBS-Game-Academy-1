@@ -1,2 +1,6 @@
 ﻿  Source.c
+C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Class 8th (Pointer)\Source.c(53,10): warning C4477: 'scanf_s' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+      C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Class 8th (Pointer)\Source.c(53,10):
+      서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+  
   Class 8th (Pointer).vcxproj -> C:\Users\Administrator\Desktop\SBS-Game-Academy-1\Program\x64\Debug\Class 8th (Pointer).exe
