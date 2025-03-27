@@ -59,7 +59,7 @@ void main()
 
 	// int x = 10; // 변수의 주소값
 	// 
-	// int * pointer = &x; // 포인터 변수 선언, x의
+	// int * pointer = &x; // 포인터 변수 선언, xㅇ
 	// 
 	// *pointer = 99; // 역참조
 	// 
