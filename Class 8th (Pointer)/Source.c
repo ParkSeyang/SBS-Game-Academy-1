@@ -59,11 +59,9 @@ void main()
 
 	// int x = 10; // 변수의 주소값
 	// 
-	// int * pointer = &x; // 포인터 변수 선언, xㅇ
+	// int * pointer = &x; // 포인터 변수 선언, x의 주소 대입
 	// 
-	// *pointer = 99; // 역참조
-	// 
-	// 
+	// *pointer = 99; // 포인터로 변수 x에 99 값 대입;
 	// 
 	// printf("x의 변수의 값 : %d\n", x);
 	// printf("x의 주소 값 : %p\n", &x);
@@ -91,6 +89,9 @@ void main()
 	// 포인터 변수의 크기는 중앙 처리 장치가 한 번에 처리할 수
 	//  있는 크기로 정해지며, 한 번에 처리할 수 있는 크기는
 	//  운영 체제에 따라 크기가 결정됩니다.
+	// 
+	// 간접 참조 연산자
+	// 출처 https://blog.naver.com/pullipes/222736974340
 
 #pragma endregion
 
