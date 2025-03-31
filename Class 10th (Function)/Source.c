@@ -191,7 +191,7 @@ void main()
 #pragma endregion
 
 #pragma region 재귀 함수
-	// 어떤 함수에서 자신을 다시 호출하여 작업을
+	// 어떤 함수에서 자신을 다시 호출하여 작업을 반복하는 함수입니다.
 
 	// Recursive(3);
 
