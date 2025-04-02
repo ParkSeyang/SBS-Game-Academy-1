@@ -170,7 +170,4 @@ void main()
 	// 다른 메모리 주소를 저장할 수 없습니다.
 #pragma endregion
 
-
-
-
 }
