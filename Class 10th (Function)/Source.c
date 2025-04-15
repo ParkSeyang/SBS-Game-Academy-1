@@ -28,6 +28,7 @@ int Compare(float x, float y)
 	}
 }
 
+// 잘못된 예시
 // void time(int left, int right)
 // {
 // 	int temporary = left;
@@ -35,7 +36,7 @@ int Compare(float x, float y)
 // 	left = right;
 // 
 // 	right = temporary;
-// 잘못된 예시
+
 
 void swap(int* left, int* right)
 {
